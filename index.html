@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Happy Hack</title>
+    <meta name="description" content="Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。">
+    <meta property="og:image" content="https://nonchan-happyhack.netlify.app/images/happhack_opg.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="style.css">
@@ -30,6 +33,7 @@
         </div>
     </header>
     
+    <div class="fuwat">
     <section id="introduction">
         <h2 class="section-title">Introduction</h2> 
         <div class="intro-content1">
@@ -53,7 +57,10 @@
             <img src=images/introduction_002.jpg alt="" class="intro-img2">
         </div>
     </section>
+    </div>
     
+    
+    <div class="fuwat">
     <section id="courses">
       <div id="prticles-js"></div>
        <h2 class="section-title">Courses</h2>
@@ -102,7 +109,9 @@
         </div>
      </div>
     </section>
+    </div>
     
+    <div class="fuwat">
     <section id="images">
         <h2 class="section-title">Images</h2>
         <ul class="images-slideshow">
@@ -113,13 +122,17 @@
             <li><img src="images/background5.jpg" alt=""></li>
         </ul>
     </section>
+    </div>
     
+    <div class="fuwat">
     <section id="access">
        <h2 class="section-title">Access</h2>
        <div class="acsess-map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3131287797933!2d135.49025455027675!3d34.69728128033926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1613744766476!5m2!1sja!2sjp" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </section>
+    </div>
+    
     <footer>
         &copy; 2019 Happy Hack Inc.
     </footer>
@@ -140,5 +153,21 @@
           slidesToScroll: 1,
       });
   </script>
+  
+  <script type="text/javascript">
+$(document).ready(function(){
+  $('.fuwat').css('visibility','hidden');
+  $(window).scroll(function(){
+   var windowHeight = $(window).height(),
+       topWindow = $(window).scrollTop();
+   $('.fuwat').each(function(){
+    var objectPosition = $(this).offset().top;
+    if(topWindow > objectPosition - windowHeight + 200){
+     $(this).addClass("fuwatAnime");
+    }
+   });
+  });
+});
+</script>
 </body>
 </html>

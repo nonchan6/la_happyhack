@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: block;
     height: 0;
@@ -12,12 +12,12 @@
     visibility: hidden;
 }
 
-header{
+header {
     width: 100%;
 }
 
 
-.bg-slider{
+.bg-slider {
     width: 100%;
     height: 750px;
     background-size: cover;
@@ -25,20 +25,20 @@ header{
 }
 
 
-nav ul{
+nav ul {
     float: right;
-    padding-top: 15px; 
+    padding-top: 15px;
 }
 
 
 
-nav li{
+nav li {
     float: left;
     margin-right: 10px;
 }
 
 
-nav a{
+nav a {
     text-decoration: none;
     display: block;
     color: #fff;
@@ -47,19 +47,19 @@ nav a{
     margin: 14px 16px 0px;
 }
 
-nav a:hover{
+nav a:hover {
     color: #3d5cdb;
     transition: 0.5s;
 }
 
-.alltitles{
+.alltitles {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
 
-.titles{
+.titles {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -67,11 +67,11 @@ nav a:hover{
     -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
-.title{
+.title {
     width: 900px;
 }
 
-.subtitle{
+.subtitle {
     color: #fff;
     font-family: Futura;
     font-style: italic;
@@ -82,7 +82,7 @@ nav a:hover{
 }
 
 
-.section-title{
+.section-title {
     color: #3d5cdb;
     font-family: Futura;
     font-size: 55px;
@@ -96,7 +96,7 @@ nav a:hover{
 }
 */
 
-.intro-content1{
+.intro-content1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,24 +104,24 @@ nav a:hover{
 }
 
 
-.intro-img1{
+.intro-img1 {
     width: 500px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
-.right-box{
+.right-box {
     width: 400px;
     margin: 30px;
 }
 
-.right-box p{
+.right-box p {
     color: #333333;
     width: 400px;
     line-height: 30px;
     margin: 0px 0px 20px;
 }
 
-.intro-btn1{
+.intro-btn1 {
     background-color: #3d5cdb;
     border-radius: 12px;
     color: #fff;
@@ -134,38 +134,38 @@ nav a:hover{
     margin: 100px;
 }
 
-.intro-btn1:hover{
+.intro-btn1:hover {
     box-shadow: #858c8e 0px 2px 15px 2px;
 }
 
 
-.intro-content2{
+.intro-content2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px 0px 40px;
-    
+
 }
 
-.left-box{
+.left-box {
     width: 400px;
 }
 
-.left-box p{
+.left-box p {
     color: #333333;
     width: 400px;
     line-height: 32px;
     margin: 0px 0px 20px;
 }
 
-.intro-img2{
+.intro-img2 {
     width: 500px;
     margin-left: 20px;
 }
 
 
 
-.intro-btn2{
+.intro-btn2 {
     background-color: #ffbf00;
     border-radius: 12px;
     color: #fff;
@@ -177,7 +177,7 @@ nav a:hover{
     margin: 100px;
 }
 
-.intro-btn2:hover{
+.intro-btn2:hover {
     box-shadow: #858c8e 0px 2px 15px 2px;
 }
 
@@ -186,27 +186,27 @@ nav a:hover{
 
 
 
-#courses{
+#courses {
     position: relative;
 }
 
 
 
 
-#prticles-js{
-　width:100%;
-  height:100%;
-  background-color:#d6e6f8;
-　position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: 0;
+#prticles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #d6e6f8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    z-index: -1;
 }
 
-.corse-all{
+.corse-all {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,21 +231,22 @@ nav a:hover{
     box-shadow: #6a8998 0px 1px 3px 0px;
     display: flex;
     flex-direction: column;
-    margin: 20px 10px 10px;
+    margin: 20px 10px 30px;
     padding: 30px;
 }
 
 
 
-.course-img-html{
- margin: 25px 25px;
+.course-img-html {
+    margin: 25px 25px;
 }
 
-.course-btn-html{
+.course-btn-html {
     background-color: #f16529;
     color: #fff;
     border-radius: 12px;
-    font-size; 13px;
+    font-size;
+    13px;
     font-weight: 700;
     line-height: 40px;
     margin: 15px 5px;
@@ -256,23 +257,24 @@ nav a:hover{
 
 
 
-.corse-all a:hover{
+.corse-all a:hover {
     box-shadow: #858c8e 0px 2px 15px 2px;
 }
 
 
 
 
-.course-img-css{
- margin: 17px 25px;
+.course-img-css {
+    margin: 17px 25px;
 }
 
 
-.course-btn-css{
+.course-btn-css {
     background-color: #29a9df;
     color: #fff;
     border-radius: 12px;
-    font-size; 13px;
+    font-size;
+    13px;
     font-weight: 700;
     line-height: 40px;
     margin: 15px 5px;
@@ -284,16 +286,17 @@ nav a:hover{
 
 
 
-.course-img-unity{
- margin: 53px 25px;
+.course-img-unity {
+    margin: 53px 25px;
 }
 
 
-.course-btn-unity{
+.course-btn-unity {
     background-color: #333333;
     color: #fff;
     border-radius: 12px;
-    font-size; 13px;
+    font-size;
+    13px;
     font-weight: 700;
     line-height: 40px;
     margin: 15px 5px;
@@ -304,8 +307,8 @@ nav a:hover{
 
 
 
-.course-img-ruby{
- margin: 53px 25px;
+.course-img-ruby {
+    margin: 53px 25px;
 }
 
 
@@ -313,7 +316,8 @@ nav a:hover{
     background-color: #ff5252;
     color: #fff;
     border-radius: 12px;
-    font-size; 13px;
+    font-size;
+    13px;
     font-weight: 700;
     line-height: 40px;
     margin: 15px 5px;
@@ -324,16 +328,17 @@ nav a:hover{
 
 
 
-.course-img-js{
- margin: 20px 25px;
+.course-img-js {
+    margin: 20px 25px;
 }
 
 
-.course-btn-js{
+.course-btn-js {
     background-color: #f16529;
     color: #fff;
     border-radius: 12px;
-    font-size; 13px;
+    font-size;
+    13px;
     font-weight: 700;
     line-height: 40px;
     margin: 15px 5px;
@@ -343,16 +348,17 @@ nav a:hover{
 }
 
 
-.course-img-swift{
- margin: 55px 25px;
+.course-img-swift {
+    margin: 55px 25px;
 }
 
 
-.course-btn-swift{
+.course-btn-swift {
     background-color: #fe7536;
     color: #fff;
     border-radius: 12px;
-    font-size; 13px;
+    font-size;
+    13px;
     font-weight: 700;
     line-height: 40px;
     margin: 15px 5px;
@@ -364,16 +370,17 @@ nav a:hover{
 
 
 
-.course-img-go{
- margin: 45px 25px;
+.course-img-go {
+    margin: 45px 25px;
 }
 
 
-.course-btn-go{
+.course-btn-go {
     background-color: #73cedd;
     color: #fff;
     border-radius: 12px;
-    font-size; 13px;
+    font-size;
+    13px;
     font-weight: 700;
     line-height: 40px;
     margin: 15px 5px;
@@ -385,17 +392,17 @@ nav a:hover{
 
 
 
-#images{
+#images {
     width: 100%;
 }
 
 .acsess-map {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
-footer{
+footer {
     color: #3d5cdb;
     font-family: Futura;
     line-height: 60px;
@@ -405,17 +412,57 @@ footer{
 
 
 
-.images-slideshow{
+.images-slideshow {
     margin: 10px auto;
     width: 80%;
 }
 
-.images-slideshow img{
+.images-slideshow img {
     width: 290px;
 }
 
 .slick-prev:before,
-.slick-next:before
-{
+.slick-next:before {
     color: black;
+}
+
+.fuwatAnime {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
 }
