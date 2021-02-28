@@ -94,7 +94,7 @@
 
                 <div class="course-card">
                     <img src="images/js.png" alt="" class="course-img-js">
-                    <h3>JavaScriptコース</h3>
+                    <h3 class="course-name-js">JavaScriptコース</h3>
                     <a href="#courses" class="course-btn-js">このコースを受ける</a>
                 </div>
 
@@ -106,7 +106,7 @@
 
                 <div class="course-card">
                     <img src="images/go.png" alt="" class="course-img-go">
-                    <h3>Goコース</h3>
+                    <h3 class="course-name-go">Goコース</h3>
                     <a href="#courses" class="course-btn-go">このコースを受ける</a>
                 </div>
             </div>
@@ -148,21 +148,19 @@
         });
 
 
-        if (window.matchMedia('(min-width: 480px)').matches) {
             $('.images-slideshow').slick({
                 dots: true,
                 infinite: true,
                 slidesToShow: 4,
                 slidesToScroll: 1,
+                responsive: [{
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }]
             });
-        } else {
-            $('.images-slideshow').slick({
-                dots: true,
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            });
-        }
     </script>
 
     <script type="text/javascript">

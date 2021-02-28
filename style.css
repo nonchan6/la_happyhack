@@ -16,6 +16,7 @@ header {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -463,9 +464,6 @@ footer {
         font-size: 15px;
     }
 
-    .bg-slider {
-        background-position: center;
-    }
 
     .section-title {
         font-size: 32px;
@@ -531,7 +529,6 @@ footer {
         padding-top: 5px;
         font-size: 13px;
     }
-    
 
     .course-img-html {
         margin: 0px 16px;
@@ -587,9 +584,13 @@ footer {
     }
     
     .course-img-js {
-        margin: 1px 20px;
+        margin: 0px 17px;
     }
-
+    
+    .course-name-js{
+        line-height: 14px;
+    }
+    
     
     .course-btn-js {
         font-size: 10px;
@@ -615,7 +616,12 @@ footer {
     }
     
     .course-img-go {
-        margin: 0px 10px;
+        margin: 0px 0px;
+    }
+    
+    h3.course-name-go{
+        margin-top: 5px; 
+        padding: 0px;
     }
 
     
